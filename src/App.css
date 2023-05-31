@@ -1,0 +1,93 @@
+.img-icon {
+  width: 1.8rem;
+}
+
+.bg-img {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://thumbs.dreamstime.com/b/pizza-de-fondo-pizzas-deliciosas-con-queso-tocino-y-champi%C3%B1ones-vista-superior-183994608.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: top;
+padding: 10vh;
+color: white;
+text-align: center;
+}
+
+.separacion {
+  border: solid;
+  border-width: 1px;
+  opacity: 0.5;
+}
+
+.flex {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.raya {
+  border: solid;
+  border-width: 1px;
+  color: grey;
+  margin: 10px;
+}
+
+.ingredientes {
+  margin-left: 20px;
+}
+
+
+h5{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+NavLink {
+  text-decoration: none;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  width: 50rem;
+
+}
+
+.img-detalle {
+  width: 20px;
+}
+
+.texto-detalle h5 {
+  text-align: start;
+}
+
+.boton-detalle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boton-detalle button {
+  height: 40px;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
